@@ -1,0 +1,32 @@
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/main2.css);
+@import url(styles/swiper.css);
+@import url(styles/feedback.css);   
+@import url(styles/footer.css);   
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --azul-escuro: #113946;
+    --azul-escuro-fundo-menu: #07181e;
+    --laranja-dourado: #E2B474;
+    --branco-padrao: #FFFFFF;
+    --cinza-box: #747474; /* cinza padrão em caixas contento textos, basta visualizar no site */
+    --cinza-texto: #5c5b5bda; /* cinza usado em textos */
+    --cinza-fundo-menu: #383838;
+    --cinza-fundo-html: #50505082;
+
+    --cinza-footer-nav: #5c5b5be2;
+    --azul-footer-h2: #0b29335c;
+
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(var(--branco-padrao), #AEAEAE);
+}
